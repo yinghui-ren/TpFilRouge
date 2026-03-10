@@ -1,0 +1,9 @@
+{
+  "id": 15,
+  "name": "Nguyen",
+  "firstName": "Thierry",
+  "address": "12 rue de la Paix, Paris",
+  "favoriteLanguage": "Java",
+  "favoriteBook": "Clean Code",
+  "salary": 45000.0
+}

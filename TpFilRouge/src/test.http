@@ -1,0 +1,39 @@
+### GET request to example server
+GET https://examples.http-client.intellij.net/get
+    ?generated-in=IntelliJ IDEA
+
+### GET all programmers
+GET http://localhost:8080/programmers
+
+### GET programmer by id
+GET http://localhost:8080/programmers/15
+
+### DELETE programmer by id
+DELETE http://localhost:8080/programmers/delete/14
+
+### POST programmer
+POST http://localhost:8080/programmers/add
+Content-Type: application/json
+
+{
+  "name": "Nguyen",
+  "firstName": "Thierry",
+  "address": "12 rue de la Paix, Paris",
+  "favoriteLanguage": "Java",
+  "favoriteBook": "Clean Code",
+  "salary": 45000.00
+}
+
+### PUT programmer
+PUT http://localhost:8080/programmers/put/15
+Content-Type: application/json
+
+{
+  "name": "Nguyen",
+  "firstName": "Thierry",
+  "address": "12 rue de la Paix, Paris",
+  "favoriteLanguage": "Java",
+  "favoriteBook": "Clean Code",
+  "salary": 45000.00
+}
+

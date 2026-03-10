@@ -1,0 +1,83 @@
+[
+  {
+    "id": 2,
+    "name": "Fernandez",
+    "firstName": "Lucia",
+    "address": "34 avenue des Lilas, Lyon",
+    "favoriteLanguage": "Python",
+    "favoriteBook": "Fluent Python",
+    "salary": 42000.0
+  },
+  {
+    "id": 3,
+    "name": "O'Connor",
+    "firstName": "Sean",
+    "address": "78 boulevard Victor Hugo, Marseille",
+    "favoriteLanguage": "C++",
+    "favoriteBook": "Effective C++",
+    "salary": 48000.0
+  },
+  {
+    "id": 4,
+    "name": "Kowalski",
+    "firstName": "Marek",
+    "address": "5 place Bellecour, Lyon",
+    "favoriteLanguage": "C#",
+    "favoriteBook": "CLR via C#",
+    "salary": 46000.0
+  },
+  {
+    "id": 5,
+    "name": "Haddad",
+    "firstName": "Amina",
+    "address": "22 rue Nationale, Lille",
+    "favoriteLanguage": "JavaScript",
+    "favoriteBook": "You Don't Know JS",
+    "salary": 43000.0
+  },
+  {
+    "id": 6,
+    "name": "Okafor",
+    "firstName": "Chinedu",
+    "address": "19 rue des Frères Lumière, Toulouse",
+    "favoriteLanguage": "Go",
+    "favoriteBook": "The Go Programming Language",
+    "salary": 47000.0
+  },
+  {
+    "id": 7,
+    "name": "Tanaka",
+    "firstName": "Yuki",
+    "address": "55 avenue Montaigne, Paris",
+    "favoriteLanguage": "Ruby",
+    "favoriteBook": "Programming Ruby",
+    "salary": 41000.0
+  },
+  {
+    "id": 8,
+    "name": "Dubois",
+    "firstName": "Claire",
+    "address": "8 rue de Bretagne, Nantes",
+    "favoriteLanguage": "Kotlin",
+    "favoriteBook": "Kotlin in Action",
+    "salary": 44000.0
+  },
+  {
+    "id": 9,
+    "name": "Singh",
+    "firstName": "Arjun",
+    "address": "66 rue Voltaire, Bordeaux",
+    "favoriteLanguage": "Scala",
+    "favoriteBook": "Programming in Scala",
+    "salary": 49000.0
+  },
+  {
+    "id": 10,
+    "name": "Smith",
+    "firstName": "Emily",
+    "address": "101 avenue Foch, Strasbourg",
+    "favoriteLanguage": "PHP",
+    "favoriteBook": "Modern PHP",
+    "salary": 40000.0
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "timestamp": "2026-03-10T20:49:26.925+00:00",
+  "status": 405,
+  "error": "Method Not Allowed",
+  "path": "/programmers/delete/11"
+}
