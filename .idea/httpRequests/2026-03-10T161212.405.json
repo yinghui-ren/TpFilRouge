@@ -1,6 +1,0 @@
-{
-  "timestamp": "2026-03-10T15:12:12.368+00:00",
-  "status": 405,
-  "error": "Method Not Allowed",
-  "path": "/programmers/add"
-}

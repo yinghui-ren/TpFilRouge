@@ -32,7 +32,6 @@ public class ProgrammerService {
     }
 
     public Programmer updateProgrammer(Programmer programmer) {
-        System.out.println("Before save: " + programmer);
         return programmerRepository.save(programmer);
     }
 

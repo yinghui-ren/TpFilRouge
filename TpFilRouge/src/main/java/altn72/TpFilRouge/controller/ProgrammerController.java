@@ -49,7 +49,6 @@ public class ProgrammerController {
     public Programmer updateProgrammerInfo(@PathVariable Integer id,
                                      @RequestBody Programmer programmer) {
         programmer.setId(id);
-        System.out.println("PUT received: " + programmer);
         return programmerService.updateProgrammer(programmer);
     }
 
