@@ -49,7 +49,9 @@ A better approach is constructor injection, because it makes dependencies explic
 4.5.
 PUT replaces the whole resource, while PATCH modifies only some fields of the resource.
 
-
+5.8.2
+HTML form normally sends a GET or POST request, while the controller deletion method is often defined with @DeleteMapping,
+so clicking the Delete button does not call the @DeleteMapping method correctly.
 
 
 

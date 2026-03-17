@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Programmers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2>Programmers List</h2>
+        <a th:href="@{/programmers/lastProgrammerName}" class="btn btn-success">
+            Show Last Programmer
+        </a>
+
+        <a th:href="@{/programmers/new}" class="btn btn-success">
+            + Add Programmer
+        </a>
+    </div>
+    <div class="card shadow-sm">
+        <div class="card-body">
+
+            <table class="table table-striped table-hover align-middle">
+
+                <thead class="table-dark">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>First Name</th>
+                    <th>Address</th>
+                    <th>Language</th>
+                    <th>Book</th>
+                    <th>Salary</th>
+                    <th class="text-center">Actions</th>
+                </tr>
+                </thead>
+
+                <tbody>
+                <tr th:each="p : ${listProgrammers}">
+
+                    <td th:text="${p.id}"></td>
+                    <td th:text="${p.name}"></td>
+                    <td th:text="${p.firstName}"></td>
+                    <td th:text="${p.address}"></td>
+                    <td th:text="${p.favoriteLanguage}"></td>
+                    <td th:text="${p.favoriteBook}"></td>
+                    <td th:text="${p.salary}"></td>
+                    <td class="text-center">
+
+                        <div class="d-flex justify-content-center gap-2">
+                            <a th:href="@{/programmers/edit/{id}(id=${p.id})}"
+                               class="btn btn-primary btn-sm">
+                                Edit
+                            </a>
+
+                            <form th:action="@{/programmers/delete/{id}(id=${p.id})}"
+                                  method="post"
+                                  onsubmit="return confirm('Are you sure you want to delete this programmer?');">
+
+                                <button type="submit" class="btn btn-danger btn-sm">
+                                    Delete
+                                </button>
+                            </form>
+
+                        </div>
+
+                    </td>
+
+                </tr>
+                </tbody>
+
+            </table>
+
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

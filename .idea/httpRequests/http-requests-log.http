@@ -1,3 +1,56 @@
+GET http://localhost:8080/programmers/15
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-03-17T152904.200.json
+
+###
+
+GET http://localhost:8080/programmers
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-03-17T152854.200.json
+
+###
+
+GET http://localhost:8080/programmers
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+###
+
+GET http://localhost:8080/programmers/15
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+###
+
+GET http://localhost:8080/programmers/15
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+###
+
+GET http://localhost:8080/programmers
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+###
+
+GET http://localhost:8080/programmers
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+###
+
 PUT http://localhost:8080/programmers/put/15
 Content-Type: application/json
 Content-Length: 173
@@ -491,68 +544,6 @@ Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
 
 <> 2026-03-10T215331.200.json
-
-###
-
-DELETE http://localhost:8080/programmers/delete/13
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-###
-
-DELETE http://localhost:8080/programmers/delete/12
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-###
-
-GET http://localhost:8080/programmers
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2026-03-10T215307.200.json
-
-###
-
-DELETE http://localhost:8080/programmers/delete/11
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-###
-
-DELETE http://localhost:8080/programmers/delete/11
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2026-03-10T214926.405.json
-
-###
-
-GET http://localhost:8080/programmers
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2026-03-10T214909.200.json
-
-###
-
-DELETE http://localhost:8080/programmers/delete/11
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2026-03-10T214900.405.json
 
 ###
 

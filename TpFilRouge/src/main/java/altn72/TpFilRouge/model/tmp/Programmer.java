@@ -12,8 +12,8 @@ public class Programmer {
     public Programmer() {
     }
 
-    public Programmer(Integer idProgrammer, String nom, String prenom, String adresse, String langageExpertise, String livrePrefere, Double salaire) {
-        this.idProgrammeur = idProgrammer;
+    public Programmer(Integer idProgrammeur, String nom, String prenom, String adresse, String langageExpertise, String livrePrefere, Double salaire) {
+        this.idProgrammeur = idProgrammeur;
         this.nom = nom;
         this.prenom = prenom;
         this.adresse = adresse;
